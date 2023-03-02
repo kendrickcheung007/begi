@@ -1,0 +1,7 @@
+.article-content {
+  & > p {
+    margin: 0.5em 0;    
+  }
+  word-spacing: 0.3rem;
+  // line-height: 2.8rem;
+}

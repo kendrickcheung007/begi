@@ -1,0 +1,33 @@
+<head>
+  <style>
+    .blur {
+      color: transparent;
+      text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .blur:hover {
+      color: transparent;
+      text-shadow: 0px 0px 0px rgba(0, 0, 0, 1);
+    }
+
+    .shady {
+      color: #000;
+      font-weight: bold;
+      box-shadow: 0px -20px 0px rgba(0, 0, 0, 1) inset;
+      transition: all 0.3s ease;
+    }
+    .shady:hover {
+      font-weight: bold;
+      color: #fff;
+      box-shadow: 0px -20px 0px rgba(0, 0, 0, 1) inset;
+    }
+  </style>
+</head>
+{{- $cdn := .Scratch.Get "cdn" | default dict -}}
+{{- $fingerprint := .Scratch.Get "fingerprint" -}}
+{{- /* Font Awesome */ -}}
+{{- $source := $cdn.fontawesomeFreeCSS | default "lib/fontawesome-free/all.min.css" -}}
+{{- $style := dict "Source" $source "Fingerprint" $fingerprint -}}
+{{- partial "plugin/style.html" $style -}}
+{{- /* Theme widgets */ -}}
+{{- partial "widgets.html" . -}}

@@ -1,0 +1,8 @@
+<section class="article-content">
+    <!-- Refer to https://discourse.gohugo.io/t/responsive-tables-in-markdown/10639/5 -->
+    {{ $wrappedTable := printf "<div class=\"table-wrapper\">${1}</div>" }}
+    <!-- {{ .Content | replaceRE "(<table>(?:.|\n)+?</table>)" $wrappedTable | safeHTML }} -->
+    {{- $params := .Site.Params -}}
+    {{- $content := dict "Content" .Content "Ruby" $params.page.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html"| replaceRE "(<table>(?:.|\n)+?</table>)" $wrappedTable | safeHTML -}}
+    {{- $content -}}
+</section>

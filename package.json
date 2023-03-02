@@ -1,0 +1,24 @@
+{
+  "name": "begi",
+  "version": "1.0.0",
+  "description": "This is a quick start template for [Hugo theme Stack](https://github.com/CaiJimmy/hugo-theme-stack). It uses [Hugo modules](https://gohugo.io/hugo-modules/) feature to load the theme.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "hugo server --disableFastRender --navigateToChanged",
+    "build": "hugo -v --gc --minify",
+    "dev:production": "npm run dev -- --environment production",
+    "update:theme": "git submodule update --remote --merge themes/FixIt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaiJimmy/hugo-theme-stack-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaiJimmy/hugo-theme-stack-starter/issues"
+  },
+  "homepage": "https://github.com/CaiJimmy/hugo-theme-stack-starter#readme"
+}

@@ -1,0 +1,16 @@
+ruby {
+  background: $code-background-color;
+
+  rt {
+    color: $global-font-secondary-color;
+    font-size: 1.3rem;
+  }
+
+  [data-theme="dark"] & {
+    background: $code-background-color-dark;
+
+    rt {
+      color: $global-font-secondary-color-dark;
+    }
+  }
+}

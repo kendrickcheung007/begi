@@ -2,7 +2,7 @@
 mainSections = ["post"]
 # Output page's full content in RSS.
 rssFullContent = true
-
+fontawesome = true
 [footer]
 since = 2020
 customText = ""
@@ -12,8 +12,8 @@ published = "Jan 02, 2006"
 lastUpdated = "Jan 02, 2006 15:04 MST"
 
 [sidebar]
-emoji = "🍥"
-subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+emoji = "🍀"
+subtitle = "「曾經有一份至真嘅愛情擺喺我面前，但我冇去珍惜，到冇咗嘅時候先至後悔莫及，塵世間最痛苦莫過於此。如果個天可以畀個機會我返轉頭嘅話，我會同個女仔講 我愛佢；如果係都要喺呢份愛加上一個期限，我希望係一萬年。」"
 
 [sidebar.avatar]
 enabled = true
@@ -146,3 +146,15 @@ clientSecret = ""
 [comments.cusdis]
 host = ""
 id = ""
+
+# Back to top
+# 返回顶部
+[backToTop]
+    enable = true
+    # Scroll percent label in b2t button
+    # 在 b2t 按钮中显示滚动百分比
+    scrollpercent = true
+
+[page]
+    # 是否使用 ruby 扩展语法
+    ruby = true
