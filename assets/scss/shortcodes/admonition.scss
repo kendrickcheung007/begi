@@ -85,7 +85,7 @@ $admonition-background-color-map: (
       // @include border-radius(0);
     }
 
-    &.open .admonition-title {
+    &.open .a {
       background-color: map-get($admonition-background-color-map, "note");
     }
 

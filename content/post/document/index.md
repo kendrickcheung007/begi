@@ -2,7 +2,7 @@
 title: "Get started with Hugo Stack Theme"
 description: I am gonna show you how to use this theme.
 date: 2023-03-01T18:09:43+08:00
-image: document.jpg
+image: banner.jpg
 categories:
     - Document
 tags: 
@@ -12,6 +12,10 @@ comments: true
 draft: fase
 weight: 1
 ---
+
+{{< admonition tip >}}
+This article serves as a quick reference for [Hugo-Stack](https://github.com/CaiJimmy/hugo-theme-stack). If you're interested in using it, head over to its source hosting platform on GitHub to access the source code. I recommend reading the [Hugo](https://gohugo.io/installation/windows/) and [Hugo-Stack documentation](https://stack.jimmycai.com/guide/) carefully to help you build your personal blog with ease.
+{{< /admonition >}}
 
 # Markdown
 **What is Markdown?**
@@ -97,7 +101,7 @@ Some text here.
 
     *{{\< bilibili VIDEO_ID PART_NUMBER  >}}*
 
-The `VIDEO_ID` can be founded in the URL of the video form [Bilibili](https://www.bilibili.com/). For instance,the VIDEO_ID of `https://www.bilibili.com/video/BV1Sg4y1n7c4/?spm_id_from=333.1007.tianma.18-4-70.click&vd_source=031b1e94f7352ad4e2d00a56d2314e71` is BV1Sg4y1n7c4, and the PART_NUMBER is optional. We embed this video into our page we coul write down: *{{\< bilibili BV1Sg4y1n7c4 >}}*
+The `VIDEO_ID` can be founded in the URL of the video form [Bilibili](https://www.bilibili.com/). For instance,the VIDEO_ID of `https://www.bilibili.com/video/BV1Sg4y1n7c4/?spm_id_from=333.1007.tianma.18-4-70.click&vd_source=031b1e94f7352ad4e2d00a56d2314e71` is BV1Sg4y1n7c4, and the PART_NUMBER is optional. We embed this video into our page we could write down: *{{\< bilibili BV1Sg4y1n7c4 >}}*
 
 * The rendered output looks like this:
 
