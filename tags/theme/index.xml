@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Theme on Begi | 筆記</title><link>https://kendrickcheung007.github.io/tags/theme/</link><description>Recent content in Theme on Begi | 筆記</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 01 Mar 2023 18:09:43 +0800</lastBuildDate><atom:link href="https://kendrickcheung007.github.io/tags/theme/index.xml" rel="self" type="application/rss+xml"/><item><title>Get started with Hugo Stack Theme</title><link>https://kendrickcheung007.github.io/p/get-started-with-hugo-stack-theme/</link><pubDate>Wed, 01 Mar 2023 18:09:43 +0800</pubDate><guid>https://kendrickcheung007.github.io/p/get-started-with-hugo-stack-theme/</guid><description>&lt;img src="https://kendrickcheung007.github.io/p/get-started-with-hugo-stack-theme/banner.jpg" alt="Featured image of post Get started with Hugo Stack Theme" />&lt;div class="details admonition tip open">
+&lt;div class="details-summary admonition-title">
+&lt;i class="icon fa-solid fa-lightbulb fa-fw" aria-hidden="true">&lt;/i>Tip&lt;i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true">&lt;/i>
+&lt;/div>
+&lt;div class="details-content">
+&lt;div class="admonition-content">This article serves as a quick reference for &lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener"
+>Hugo-Stack&lt;/a>. If you&amp;rsquo;re interested in using it, head over to its source hosting platform on GitHub to access the source code. I recommend reading the &lt;a class="link" href="https://gohugo.io/installation/windows/" target="_blank" rel="noopener"
+>Hugo&lt;/a> and &lt;a class="link" href="https://stack.jimmycai.com/guide/" target="_blank" rel="noopener"
+>Hugo-Stack documentation&lt;/a> carefully to help you build your personal blog with ease.&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h1 id="markdown">Markdown&lt;/h1>
+&lt;p>&lt;strong>What is Markdown?&lt;/strong>&lt;/p>
+&lt;p>Markdown is a light-weight markup language that you can use to add formatting elements to plaintext text documents. Created by John Gruber in 2004, Markdown is now one of the world’s most popular markup languages. &lt;em>For more information, please visit &lt;a class="link" href="https://www.markdownguide.org/getting-started/" target="_blank" rel="noopener"
+>Markdown&lt;/a>.&lt;/em>&lt;/p>
+&lt;h2 id="markdown-syntax">Markdown syntax&lt;/h2>
+&lt;p>&lt;strong>Blockquotes&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>To create a blockquote, add a &amp;gt; in front of a paragraph.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">&lt;span class="k">&amp;gt; &lt;/span>&lt;span class="ge">This is a blockquote.
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>The rendered output looks like this:&lt;/p>
+&lt;blockquote>
+&lt;p>This is a blockquote.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Links&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>To create a link, enclose the link text in brackets(e.g.,[display name]) and then follow it immediately with the URL in parentheses(e.g.,(htpps://link.com)).&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">Go to visit [&lt;span class="nt">Google&lt;/span>](&lt;span class="na">https://google.com&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>The rendered output looks like this:&lt;/p>
+&lt;p>Go to visit &lt;a class="link" href="https://google.com" target="_blank" rel="noopener"
+>Google&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;ul>
+&lt;li>
+&lt;p>You can also use it for jumping to the specific section in current Markdown file.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">Go to the section [&lt;span class="nt">Summary&lt;/span>](&lt;span class="na">#Summary&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>The rendered output looks like this:&lt;/p>
+&lt;p>Go to the section &lt;a class="link" href="#Summary" >Summary&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Images&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>To add an image, add an exclamation mark(!) infront of a &lt;code>[link]&lt;/code>- mentioned above, for example below:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">![&lt;span class="nt">Here is an example&lt;/span>](&lt;span class="na">/path/picture.jpg&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>The rendered output woulb be a picture which you link to.&lt;/p>
+&lt;p>&lt;img src="https://kendrickcheung007.github.io/document.jpg"
+loading="lazy"
+alt="Here is an example"
+>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="details admonition tip open">
+&lt;div class="details-summary admonition-title">
+&lt;i class="icon fa-solid fa-lightbulb fa-fw" aria-hidden="true">&lt;/i>Tip&lt;i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true">&lt;/i>
+&lt;/div>
+&lt;div class="details-content">
+&lt;div class="admonition-content">For more information about Markdown Syntax please visit &lt;a class="link" href="https://www.markdownguide.org/basic-syntax/" target="_blank" rel="noopener"
+>Markdown document&lt;/a>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="shortcodes">Shortcodes&lt;/h2>
+&lt;p>&lt;em>Shortcodes are simple snippets inside your content files calling built-in or custom templates.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>quote&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Here is an example of &lt;code>quote&lt;/code> below&lt;/p>
+&lt;p>&lt;em>{{&amp;lt; quote author=&amp;ldquo;author&amp;rdquo; source=&amp;ldquo;source&amp;rdquo; url=&amp;ldquo;url&amp;rdquo;&amp;gt;}}&lt;/em>&lt;/p>
+&lt;p>&lt;em>Some text here.&lt;/em>&lt;/p>
+&lt;p>&lt;em>{{&amp;lt; /quote &amp;gt;}}&lt;/em>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The rendered output looks like this:&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Some text here.&lt;/p>&lt;span class="cite">&lt;span>― &lt;/span>&lt;span>author, &lt;/span>&lt;a href="url">&lt;cite>source&lt;/cite>&lt;/a>&lt;/span>&lt;/blockquote>
+&lt;p>&lt;strong>Bilibili video&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>The syntax below:&lt;/p>
+&lt;p>&lt;em>{{&amp;lt; bilibili VIDEO_ID PART_NUMBER &amp;gt;}}&lt;/em>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>The &lt;code>VIDEO_ID&lt;/code> can be founded in the URL of the video form &lt;a class="link" href="https://www.bilibili.com/" target="_blank" rel="noopener"
+>Bilibili&lt;/a>. For instance,the VIDEO_ID of &lt;code>https://www.bilibili.com/video/BV1Sg4y1n7c4/?spm_id_from=333.1007.tianma.18-4-70.click&amp;amp;vd_source=031b1e94f7352ad4e2d00a56d2314e71&lt;/code> is BV1Sg4y1n7c4, and the PART_NUMBER is optional. We embed this video into our page we could write down: &lt;em>{{&amp;lt; bilibili BV1Sg4y1n7c4 &amp;gt;}}&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>The rendered output looks like this:&lt;/p>
+&lt;div class="video-wrapper">
+&lt;iframe src="https://player.bilibili.com/player.html?as_wide=1&amp;amp;high_quality=1&amp;amp;page=1&amp;bvid=BV1Sg4y1n7c4"
+scrolling="no"
+frameborder="no"
+framespacing="0"
+allowfullscreen="true"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>&lt;strong>Tecent video&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>To embed a &lt;a class="link" href="https://v.qq.com/" target="_blank" rel="noopener"
+>Tencent video&lt;/a> we use same syntax of &lt;code>Bilibili video&lt;/code> but replace bilibili with tencent,and use tencent &lt;code>VIDEO_ID&lt;/code> instead of bilibili &lt;code>VIDEO_ID&lt;/code>. Take &lt;code>https://v.qq.com/x/cover/mzc00200koowgko/h0045wlodzy.html&lt;/code> for an example,the &lt;code>VIDEO_ID&lt;/code> is &lt;code>h0045wlodzy&lt;/code>&lt;/p>
+&lt;div class="video-wrapper">
+&lt;iframe src="https://v.qq.com/txp/iframe/player.html?vid=h0045wlodzy&amp;auto=0"
+scrolling="no"
+frameborder="no"
+framespacing="0"
+allowfullscreen="true"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>&lt;strong>YouTube video&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>The syntax below:&lt;/p>
+&lt;p>&lt;em>{{&amp;lt; youtube VIDEO_ID PART_NUMBER &amp;gt;}}&lt;/em>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>&lt;strong>Local video&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Sometimes, we are suppose to play our local video, here is the sytax to do so:&lt;/p>
+&lt;p>&lt;em>{{&amp;lt; video src=&amp;ldquo;VIDEO_URL&amp;rdquo; autoplay=&amp;ldquo;true&amp;rdquo; poster=&amp;quot;./video-poster.png&amp;quot; &amp;gt;}}&lt;/em>&lt;/p>
+&lt;p>&lt;code>autoplay&lt;/code> and &lt;code>poster&lt;/code> are optional.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="details admonition tip open">
+&lt;div class="details-summary admonition-title">
+&lt;i class="icon fa-solid fa-lightbulb fa-fw" aria-hidden="true">&lt;/i>Tip&lt;i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true">&lt;/i>
+&lt;/div>
+&lt;div class="details-content">
+&lt;div class="admonition-content">For more information about &lt;code>Shortcodes&lt;/code> please visit &lt;a class="link" href="https://stack.jimmycai.com/writing/shortcodes" target="_blank" rel="noopener"
+>Hugo-Stack&lt;/a> and &lt;a class="link" href="https://gohugo.io/content-management/shortcodes/" target="_blank" rel="noopener"
+>Hugo Shortcodes&lt;/a>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="customize-our-own-shortcode">Customize our own Shortcode&lt;/h2>
+&lt;p>For learning Japanese, I created a custom &lt;code>Shortcode&lt;/code>, looks like this: [こんにちは]^(&amp;lsquo;kon ni chi &amp;lsquo;wa.)&lt;/p>
+&lt;p>&lt;strong>The way how I create my own shortcode:&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>We create a html file &lt;code>layouts/partials/function/ruby.html&lt;/code>, and this file&amp;rsquo;s content is below:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{{- /* Ruby */ -}}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{- /* [EN]^(English) -&amp;gt; &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">strong&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">ruby&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>EN&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">rt&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>English&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">rt&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">ruby&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">strong&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> */ -}}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{- $REin := `\[(.+?)\]\^\((.+?)\)` -}}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{- $REout := `&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">strong&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">ruby&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>$1&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">rt&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>$2&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">rt&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">ruby&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">strong&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>` -}}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{- return replaceRE $REin $REout . -}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>We create a html file &lt;code>layouts/partials/article/components/content.html&lt;/code> for exporting our custom content to the &lt;code>article&lt;/code> so that we can rendered it. this file&amp;rsquo;s content is below:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">section&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;article-content&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c">&amp;lt;!-- Refer to https://discourse.gohugo.io/t/responsive-tables-in-markdown/10639/5 --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> {{ $wrappedTable := printf &amp;#34;&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">\&amp;#34;table-wrapper\&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>${1}&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">div&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>&amp;#34; }}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c">&amp;lt;!-- {{ .Content | replaceRE &amp;#34;(&amp;lt;table&amp;gt;(?:.|\n)+?&amp;lt;/table&amp;gt;)&amp;#34; $wrappedTable | safeHTML }} --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> {{- $params := .Site.Params -}}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> {{- $content := dict &amp;#34;Content&amp;#34; .Content &amp;#34;Ruby&amp;#34; $params.page.ruby &amp;#34;Fraction&amp;#34; $params.fraction &amp;#34;Fontawesome&amp;#34; $params.fontawesome | partial &amp;#34;function/content.html&amp;#34;| replaceRE &amp;#34;(&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">table&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>(?:.|\n)+?&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">table&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>)&amp;#34; $wrappedTable | safeHTML -}}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> {{- $content -}}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">section&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>And the last, we decorate it with css, we create a css file &lt;code>assets/scss/article/article.scss&lt;/code>, the this file&amp;rsquo;s content is belows:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">ruby&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">background&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="err">$&lt;/span>&lt;span class="n">code-background-color&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="err">rt&lt;/span> &lt;span class="err">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="err">$&lt;/span>&lt;span class="n">global-font-secondary-color&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">font-size&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mf">1.3&lt;/span>&lt;span class="kt">rem&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">[&lt;/span>&lt;span class="nt">data-theme&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;dark&amp;#34;&lt;/span>&lt;span class="o">]&lt;/span> &lt;span class="o">&amp;amp;&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">background&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="err">$&lt;/span>&lt;span class="n">code-background-color-dark&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="err">rt&lt;/span> &lt;span class="err">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="err">$&lt;/span>&lt;span class="n">global-font-secondary-color-dark&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="err">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>After that we exports this file by adding &lt;code>@import &amp;quot;article/article.scss&amp;quot;;&lt;/code> to &lt;code>assets/scss/custom.scss&lt;/code> so that we can use it.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>Ok, everything is perfect, pretty easy right? Now you can use it in all of your articles(posts).&lt;/p>
+&lt;h2 id="epilogue">Epilogue&lt;/h2>
+&lt;p>&lt;code>Hugo&lt;/code> is my favorite open-source static site generator. Its lightweight, flexible, and incredibly fast performance are all extremely attractive features. With &lt;code>Hugo&lt;/code>, building a blog is easy, and you can create your own shortcodes to customize the look and feel of your content. I spent some time learning about &lt;code>Hugo&lt;/code> and creating my own shortcodes, which has been really helpful in styling my blog and making it uniquely mine. It&amp;rsquo;s been a lot of fun!&lt;/p>
+&lt;p>In particular, I love the &lt;code>Hugo-stack&lt;/code> blog template. It&amp;rsquo;s a neat and lightweight design that looks great and performs well. If you&amp;rsquo;re looking for a simple, yet powerful blogging platform, I highly recommend giving &lt;code>Hugo&lt;/code> and the &lt;code>Hugo-stack&lt;/code> template a try. I hope you&amp;rsquo;ll enjoy them as much as I do!&lt;/p></description></item></channel></rss>
