@@ -8,6 +8,7 @@
     "build": "hugo -v --gc --minify",
     "dev:production": "npm run dev -- --environment production",
     "update:theme": "git submodule update --remote --merge themes/FixIt",
+    "babel": "npx babel assets/js/theme/src/js/theme.js -o static/js/theme.min.js -s",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

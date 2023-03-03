@@ -189,8 +189,6 @@ Ok, everything is perfect, pretty easy right? Now you can use it in all of your 
 
 ## Epilogue
 
-`Hugo` is my favorite open-source static site generators. Its light-weight, flexibility and amazing speed is really attrative. With `Hugo` we can build our blog easyly, we can also create our own `shortcodes` to meet our needs. I spent some times to learn about `Hugo` and created some `shortcodes`, it is realy helpful to style my own blog, it's lots of fun!
+`Hugo` is my favorite open-source static site generator. Its lightweight, flexible, and incredibly fast performance are all extremely attractive features. With `Hugo`, building a blog is easy, and you can create your own shortcodes to customize the look and feel of your content. I spent some time learning about `Hugo` and creating my own shortcodes, which has been really helpful in styling my blog and making it uniquely mine. It's been a lot of fun!
 
-And the `Hugo-stack` is my favorite blog template. This template is neat and light-weight.
-
-Hope you enjoy `Hugo-stack` too!
+In particular, I love the `Hugo-stack` blog template. It's a neat and lightweight design that looks great and performs well. If you're looking for a simple, yet powerful blogging platform, I highly recommend giving `Hugo` and the `Hugo-stack` template a try. I hope you'll enjoy them as much as I do!
