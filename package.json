@@ -7,7 +7,7 @@
     "dev": "hugo server --disableFastRender --navigateToChanged",
     "build": "hugo -v --gc --minify",
     "dev:production": "npm run dev -- --environment production",
-    "babel": "npx babel assets/js/mytheme.js -o static/js/mytheme.min.js -s",
+    "babel": "npx babel assets/js/theme-extend.js -o static/js/theme-extend.min.js -s",
     "test": "echo \"Error: no test specified\" && exit 1",
     "post": "hugo new index.md"
   },
