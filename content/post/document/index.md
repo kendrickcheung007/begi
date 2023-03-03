@@ -1,5 +1,5 @@
 ---
-title: "[Document] Get started with Hugo Stack Theme"
+title: "Get started with Hugo Stack Theme"
 description: I am gonna show you how to use this theme.
 date: 2023-03-01T18:09:43+08:00
 image: document.jpg
@@ -10,6 +10,7 @@ tags:
 hidden: false
 comments: true
 draft: fase
+weight: 1
 ---
 
 # Markdown
