@@ -7,10 +7,17 @@
     "dev": "hugo server --disableFastRender --navigateToChanged",
     "build": "hugo -v --gc --minify",
     "dev:production": "npm run dev -- --environment production",
-    "update:theme": "git submodule update --remote --merge themes/FixIt",
-    "babel": "npx babel assets/js/theme/src/js/theme.js -o static/js/theme.min.js -s",
+    "babel": "npx babel assets/js/mytheme.js -o static/js/mytheme.min.js -s",
     "test": "echo \"Error: no test specified\" && exit 1",
     "post": "hugo new index.md"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.19.1",
+    "@babel/preset-env": "^7.18.10",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
+    "core-js": "^3.25.2"
   },
   "repository": {
     "type": "git",
